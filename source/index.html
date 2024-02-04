@@ -2,11 +2,324 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <meta name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>HTML Academy: Кэт энерджи</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
+    <header class="header-nav">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Навигационное меню
+          </i>
+        </b>
+      </p>
+      <ul class="header-nav__nav">
+        <li class="header-nav__nav-item">
+          <ul class="header-nav__wrap-top-nav">
+            <li class="header-nav__wrap-top-nav-item">
+              <a href="#">
+                <img
+                  src="/prof-front-2-cat-energy/source/img/logo-heder-top-mobile.svg"
+                  width="35" height="38"
+                  alt="logo-ico">
+                <img
+                  src="/prof-front-2-cat-energy/source/img/logo-header-mobile.svg"
+                  width="102" height="19"
+                  alt="logo-cat-energy">
+              </a>
+            </li>
+            <li class="header-nav__wrap-top-nav-item"></li>
+          </ul>
+        </li>
+        <li class="header-nav__nav-item">
+          <nav class="header-nav__nav-navigation">
+            <ul class="header-nav__wrap-bottom-nav">
+              <li class="header-nav__wrap-bottom-nav-item">
+                <a class="header-nav__wrap-bottom-nav-link" href="#">
+                  главная
+                </a>
+              </li>
+              <li class="header-nav__wrap-bottom-nav-item"></li>>
+                <a class="header-nav__wrap-bottom-nav-link" href="#">
+                  каталог продукции
+                </a>
+              </li>
+              <li class="header-nav__wrap-bottom-nav-item"></li>>
+                <a class="header-nav__wrap-bottom-nav-link" href="#">
+                  подбор программы
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+    </header>
+    <section class="effect-eat">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Функциональное питание для котов Cat energy
+          </i>
+        </b>
+      </p>
+      <h1 class="effect-eat__header">
+        Функциональное<br>
+        питание для котов
+      </h1>
+      <article class="effect-eat__info">
+        Занялся собой? Займись котом!
+      </article>
+      <img class="effect-eat-img" src="/prof-front-2-cat-energy/source/img/eat-cat-mobile.svg"
+        width="280" height="270" alt="Питание для котов Cat energy">
+      <a class="effect-eat-link" href="#">
+        подобрать программу
+      </a>
+    </section>
+    <section class="option-eat">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Возможности функционального питания для котов Cat energy
+          </i>
+        </b>
+      </p>
+      <ul class="option-eat__ul">
+        <li class="option-eat__item">
+          <div class="option-eat__wrap">
+            <div class="option-eat__wrap-container">
+              <img class="option-eat__wrap-container-img"
+                src="/prof-front-2-cat-energy/source/img/cat-sitting-mobile.svg"
+                width="36" height="50" alt="Кошка сидит">
+            </div>
+            <h1 class="option-eat__ul-header">
+              похудение
+            </h1>
+          </div>
+          <article class="option-eat__ul-article">
+            Ваш кот весит больше собаки и<br> почти утратил способность
+            лазить<br> по
+            деревьям? Пора на диету! Cat<br> Energy Slim поможет вашему<br>
+            питомцу
+            сбросить лишний вес.
+          </article>
+          <a class="option-eat__ul-link" href="#">
+            каталог slim
+            <img class="option-eat__ul-img" src="/prof-front-2-cat-energy/source/img/icon-arrow-go.svg"
+              width="32" height="12" alt="Стрелка вперед">
+          </a>
+        </li>
+        <li class="option-eat__item">
+          <div class="option-eat__wrap">
+            <div class="option-eat__wrap-container">
+              <img class="option-eat__wrap-container-img"
+                src="/prof-front-2-cat-energy/source/img/the-cat-is-walking-mobile.svg"
+                width="67" height="28" alt="Кошка сидит">
+            </div>
+            <h1 class="option-eat__ul-header">
+              Набор массы
+            </h1>
+          </div>
+          <article class="option-eat__ul-article">
+            Заработать авторитет среди<br> дворовых котов и даже собак?<br>
+            Серия Cat
+            Energy Pro поможет<br> вашему коту нарастить<br> необходимые мышцы!
+          </article>
+          <a class="option-eat__ul-link" href="#">
+            каталог pro
+            <img class="option-eat__ul-img" src="/prof-front-2-cat-energy/source/img/icon-arrow-go.svg"
+              width="32" height="12" alt="Стрелка вперед">
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="what-work">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Достоинства Cat energy
+          </i>
+        </b>
+      </p>
+      <h1 class="what-work__header">
+        Как это работает
+      </h1>
+      <ul class="what-work__ul">
+        <li class="what-work__item">
+          <article class="what-work__item-info">
+            <div class="what-work__item-info-wrap">
+              <img class="what-work__item-info-wrap-img" src="/prof-front-2-cat-energy/source/img/icon-sheet.svg"
+                width="35" height="40" alt="Лист">
+            </div>
+            Функциональное питание<br>
+            содержит только полезные<br>
+            питательные вещества.
+          </article>
+        </li>
+        <li class="what-work__item">
+          <article class="what-work__item-info">
+            <div class="what-work__item-info-wrap">
+              <img class="what-work__item-info-wrap-img" src="/prof-front-2-cat-energy/source/img/icon-package.svg"
+                width="29" height="31" alt="Упаковка">
+            </div>
+            Выпускается в виде порошка,<br>
+            который нужно лишь залить<br>
+            кипятком и готово.
+          </article>
+        </li>
+        <li class="what-work__item">
+          <article class="what-work__item-info">
+            <div class="what-work__item-info-wrap">
+              <img class="what-work__item-info-wrap-img" src="/prof-front-2-cat-energy/source/img/icon-cutlery.svg"
+                width="25" height="30" alt="Столовые приборы">
+            </div>
+            Замените один-два приема<br>
+            обычной еды на наше<br>
+            функциональное питание.
+          </article>
+        </li>
+        <li class="what-work__item">
+          <article class="what-work__item-info">
+            <div class="what-work__item-info-wrap">
+              <img class="what-work__item-info-wrap-img" src="/prof-front-2-cat-energy/source/img/icon-alarm.svg"
+                width="32" height="33" alt="Лист">
+            </div>
+            Уже через месяц<br> наслаждайтесь изменениями<br> к лучшему вашего
+            питомца!
+          </article>
+        </li>
+      </ul>
+    </section>
+    <section class="use-product">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Пример использования Cat energy
+          </i>
+        </b>
+      </p>
+      <h1 class="use-product__header">
+        Живой пример
+      </h1>
+      <article class="use-product__info">
+        Борис сбросил 5 кг за 2 месяца, просто<br> заменив свой обычный корм на
+        Cat
+        Energy<br> Slim. Отличный результат без изнуряющих<br> тренировок! При
+        этом он
+        не менял своих<br> привычек и по-прежнему спит по 16<br> часов в день.
+      </article>
+      <div class="use-product__wrap">
+        <div class="use-product__container">
+          <fieldset class="use-product__change">
+            <p class="use-product__change-p">
+              5 КГ
+            </p>
+            <legend>снижение<br> веса</legend>
+          </fieldset>
+          <fieldset class="use-product__change">
+            <p class="use-product__change-p">
+              60 ДНЕЙ
+            </p>
+            <legend>затрачено<br> времени</legend>
+          </fieldset>
+        </div>
+        <p class="use-product__change-p-money">
+          Затраты на питание: 15 000 РУБ.
+        </p>
+      </div>
+      <div class="use-product__slider">
+        <ul class="use-product__slider-ul">
+          <li class="use-product__slider-ul-item">
+            <img class="use-product__slider-ul-img" src="/prof-front-2-cat-energy/source/img/before-cat-mobile.jpg"
+              width="251" height="240" alt="Кот до">
+          </li>
+          <li class="use-product__slider-ul-item">
+            <img class="use-product__slider-ul-img" src="/prof-front-2-cat-energy/source/img/after-cat-mobile.jpg"
+              width="251" height="240" alt="Кот после">
+          </li>
+        </ul>
+        <div class="use-product__slider-buttons">
+          <label class="use-product__slider-buttons-label" for="before">было</label>
+          <fieldset>
+            <input class="use-product__slider-buttons-input" type="radio" id="before" name="before-after-cat"
+              value="before" checked />
+            <input class="use-product__slider-buttons-input" type="radio" id="after" name="before-after-cat"
+              value="after">
+          </fieldset>
+          <label class="use-product__slider-buttons-label" for="after">стало</label>
+        </div>
+      </div>
+    </section>
+    <section class="adress-company">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Наш адрес
+          </i>
+        </b>
+      </p>
+      <div class="adress-company__wrap">
+        <p class="adress-company__wrap-p">
+          приглашаем<br>
+          к сотрудничеству<br> дилеров!
+        </p>
+        <address class="adress-company__wrap-info">
+          ул. Большая<br>
+          Конюшенная, д. 19/8<br>
+          Санкт-Петербург
+        </address>
+      </div>
+    </section>
+    <section class="map-company">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Место на карте: улица Большая Конюшенная, дом 19/8, город
+            Санкт-Петербург
+          </i>
+        </b>
+      </p>
+      <img class="map-company-img" src="/prof-front-2-cat-energy/source/img/map-mobile.jpg" width="320"
+        height="362" alt="Карта">
+      <img class="map-company-img" src="/prof-front-2-cat-energy/source/img/map-pin-mobile.svg"
+        width="57" height="53" alt="Местоположение компании на карте">
+    </section>
+    <footer class="footer-info-company">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Подвал сайта
+          </i>
+        </b>
+      </p>
+      <ul class="footer-info-company__wrap">
+        <li class="footer-info-company__wrap-item">
+          <a>
+            <img src="/prof-front-2-cat-energy/source/img/logo-footer.svg"
+              width="128" height="24" alt="Логотип магазина">
+          </a>
+        </li>
+        <li class="footer-info-company__wrap-item">
+          <ul class="footer-info-company__wrap-container">
+            <li class="footer-info-company__wrap-container-item">
+              <a class="footer-info-company__wrap-container-item-link" href="#">
+                <img class="footer-info-company__wrap-container-item-img" src="/prof-front-2-cat-energy/source/img/icon-vk.svg"
+                  width="23" height="16" alt="ВК">
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-info-company__wrap-item">
+          <a class="footer-info-company__wrap-item-link" href="https://htmlacademy.ru/intensive/adaptive">
+            HTML Academy
+            <img  class="footer-info-company__wrap-item-img"
+              src="/prof-front-2-cat-energy/source/img/logo-html-academy-footer.svg"
+              width="27" height="34" alt="HTML Academy">
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
