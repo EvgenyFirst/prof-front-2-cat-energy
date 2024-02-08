@@ -2,11 +2,239 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <meta name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>HTML Academy: Кэт энерджи</title>
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
+    <header class="header-nav">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Навигационное меню
+          </i>
+        </b>
+      </p>
+      <ul class="header-nav__nav">
+        <li class="header-nav__nav-item">
+          <ul class="header-nav__wrap-top-nav">
+            <li class="header-nav__wrap-top-nav-item">
+              <a href="index.html">
+                <img
+                  src="../source/img/logo-heder-top-mobile.svg"
+                  width="35" height="38"
+                  alt="logo-ico">
+                <img
+                  src="../source/img/logo-header-mobile.svg"
+                  width="102" height="19"
+                  alt="logo-cat-energy">
+              </a>
+            </li>
+            <li class="header-nav__wrap-top-nav-item">
+              <button type="button">
+                <img
+                src="../source/img/btn-closed-nav-mobile.svg"
+                width="24" height="18"
+                alt="кнопка для открытия навигационного меню">
+              </button>
+            </li>
+          </ul>
+        </li>
+        <li class="header-nav__nav-item">
+          <nav class="header-nav__nav-navigation">
+            <ul class="header-nav__wrap-bottom-nav">
+              <li class="header-nav__wrap-bottom-nav-item">
+                <a class="header-nav__wrap-bottom-nav-link" href="#">
+                  главная
+                </a>
+              </li>
+              <li class="header-nav__wrap-bottom-nav-item"></li>>
+                <a class="header-nav__wrap-bottom-nav-link" href="#">
+                  каталог продукции
+                </a>
+              </li>
+              <li class="header-nav__wrap-bottom-nav-item"></li>>
+                <a class="header-nav__wrap-bottom-nav-link">
+                  подбор программы
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+    </header>
+    <section>
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Подбор программы питания для вашего кота
+          </i>
+        </b>
+      </p>
+      <h1>
+        Подбор программы
+      </h1>
+      <p>
+        Заполните анкету, и мы подберем<br>
+        программу питания для вашего кота
+      </p>
+      <form class="" action="https://echo.htmlacademy.ru" method="post">
+        <ul class="">
+          <li>
+            <p class="">
+              <label class="" for="cat-name">ИМЯ:*</label>
+              <input class="" id="cat-name" type="text" name="catName" placeholder="барсик" tabindex="0" required="">
+            </p>
+          </li>
+          <li>
+            <p class="">
+              <label class="" for="cat-weight">Вес (кг):*</label>
+              <input class="" id="cat-weight" type="text" name="catWeight" placeholder="7" tabindex="0" required="">
+            </p>
+          </li>
+          <li>
+            <p class="">
+              <label class="" for="cat-age">Возраст (лет):</label>
+              <input class="" id="cat-age" type="text" name="catAge" placeholder="7" tabindex="0">
+            </p>
+          </li>
+        </ul>
+        <ul class="">
+          <li class="">
+            <input class="" type="radio" name="Худение, набор массы, совет: " value="Похудение" id="filter-weight-loss" checked="">
+            <label class="" for="filter-weight-loss">похудение</label>
+          </li>
+          <li class="">
+            <input class="" type="radio" name="Худение, набор массы, совет: " value="Набор массы" id="filter-weight-gain">
+            <label class="" for="filter-weight-gain">Набор массы</label>
+          </li>
+          <li class="">
+            <input class="" type="radio" name="Худение, набор массы, совет: " value="Совет" id="filter-advice">
+            <label class="" for="filter-advice">Не знаю (Нужен ваш совет)</label>
+          </li>
+        </ul>
+        <fieldset>
+          <legend>Контактные данные<br>
+            (владельца кота)</legend>
+            <ul>
+              <li>
+                <p class="">
+                  <label class="" for="owner-data-for-cat">E-mail:*</label>
+                  <input class="" id="owner-data-for-cat" type="email" name="emailOwnerForCat" placeholder="kuklachev@gmail.com" tabindex="0" required>
+                </p>
+              </li>
+              <li>
+                <p class="">
+                  <label class="" for="owner-data-for-cat">Телефон:*</label>
+                  <input class="" id="owner-data-for-cat" type="tel" name="phoneOwnerForCat" placeholder="8 (960) 900-60-90" tabindex="0" required>
+                </p>
+              </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Комментарий</legend>
+          <p class="">
+            <textarea class="" name="infoCat" id="info-cat" cols="1" rows="1" placeholder="Расскажите обо всех повАдках кота" tabindex="0"></textarea>
+          </p>
+        </fieldset>
+        <ul class="">
+          <li class="">
+            <input class="" type="checkbox" name="Дополнительные опции: " id="option-sweetener" checked="" value="сахарозаменитель">
+            <label class="" for="option-sweetener">сахарозаменитель</label>
+          </li>
+          <li class="">
+            <input class="" type="checkbox" name="Дополнительные опции: " id="option-drinking-water" value="питьевая вода">
+            <label class="" for="option-drinking-water">питьевая вода</label>
+          </li>
+          <li class="">
+            <input class="" type="checkbox" name="Дополнительные опции: " id="option-milk" value="молоко">
+            <label class="" for="option-milk">молоко</label>
+          </li>
+          <li class="">
+            <input class="" type="checkbox" name="Дополнительные опции: " id="option-vitamins" value="витамины">
+            <label class="" for="option-vitamins">витамины</label>
+          </li>
+        </ul>
+        <div class="">
+          <button class="" id="button" type="submit" tabindex="0">
+            отправить заявку
+          </button>
+          <p>
+            * — Обязательные поля
+          </p>
+        </div>
+      </form>
+    </section>
+    <section class="adress-company">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Наш адрес
+          </i>
+        </b>
+      </p>
+      <div class="adress-company__wrap">
+        <p class="adress-company__wrap-p">
+          приглашаем<br>
+          к сотрудничеству<br> дилеров!
+        </p>
+        <address class="adress-company__wrap-info">
+          ул. Большая<br>
+          Конюшенная, д. 19/8<br>
+          Санкт-Петербург
+        </address>
+      </div>
+    </section>
+    <section class="map-company">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Место на карте: улица Большая Конюшенная, дом 19/8, город
+            Санкт-Петербург
+          </i>
+        </b>
+      </p>
+      <img class="map-company-img" src="../source/img/map-mobile.jpg" width="320"
+        height="362" alt="Карта">
+      <img class="map-company-img" src="../source/img/map-pin-mobile.svg"
+        width="57" height="53" alt="Местоположение компании на карте">
+    </section>
+    <footer class="footer-info-company">
+      <p class="visually-hidden">
+        <b>
+          <i>
+            Подвал сайта
+          </i>
+        </b>
+      </p>
+      <ul class="footer-info-company__wrap">
+        <li class="footer-info-company__wrap-item">
+          <a>
+            <img src="../source/img/logo-footer.svg"
+              width="128" height="24" alt="Логотип магазина">
+          </a>
+        </li>
+        <li class="footer-info-company__wrap-item">
+          <ul class="footer-info-company__wrap-container">
+            <li class="footer-info-company__wrap-container-item">
+              <a class="footer-info-company__wrap-container-item-link" href="#">
+                <img class="footer-info-company__wrap-container-item-img" src="../source/img/icon-vk.svg"
+                  width="23" height="16" alt="ВК">
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-info-company__wrap-item">
+          <a class="footer-info-company__wrap-item-link" href="https://htmlacademy.ru/intensive/adaptive">
+            HTML Academy
+            <img  class="footer-info-company__wrap-item-img"
+              src="../source/img/logo-html-academy-footer.svg"
+              width="27" height="34" alt="HTML Academy">
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
