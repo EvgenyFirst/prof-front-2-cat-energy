@@ -2,11 +2,136 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <meta name="viewport"
+      content="initial-scale=1,maximum-scale=1,width=device-width">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>HTML Academy: Кэт энерджи, пустая страница-заглушка</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
+    <header class="header-nav">
+      <h2 class="visually-hidden">
+        <b>
+          <i>
+            Навигационное меню пустой страницы-заглушки
+          </i>
+        </b>
+      </h2>
+      <ul class="header-nav__nav">
+        <li class="header-nav__nav-item">
+          <ul class="header-nav__wrap-top-nav">
+            <li class="header-nav__wrap-top-nav-item">
+              <a href="index.html">
+                <img
+                  src="../source/img/logo-heder-top-mobile.svg"
+                  width="35" height="38"
+                  alt="logo-ico">
+                <img
+                  src="../source/img/logo-header-mobile.svg"
+                  width="102" height="19"
+                  alt="logo-cat-energy">
+              </a>
+            </li>
+            <li class="header-nav__wrap-top-nav-item">
+              <button type="button">
+                <img
+                  src="../source/img/btn-closed-nav-mobile.svg"
+                  width="24" height="18"
+                  alt="кнопка для открытия навигационного меню">
+              </button>
+            </li>
+          </ul>
+        </li>
+        <li class="header-nav__nav-item">
+          <nav class="header-nav__nav-navigation">
+            <ul class="header-nav__wrap-bottom-nav">
+              <li class="header-nav__wrap-bottom-nav-item">
+                <a class="header-nav__wrap-bottom-nav-link" href="index.html">
+                  главная
+                </a>
+              </li>
+              <li class="header-nav__wrap-bottom-nav-item">
+                <a class="header-nav__wrap-bottom-nav-link" href="catalog.html">
+                  каталог продукции
+                </a>
+              </li>
+              <li class="header-nav__wrap-bottom-nav-item">
+                <a class="header-nav__wrap-bottom-nav-link" href="form.html">
+                  подбор программы
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+    </header>
+    <section class="empty">
+      <h2 class="visually-hidden">
+        <b>
+          <i>
+            Пустая страница-заглушка.
+          </i>
+        </b>
+      </h2>
+      <h3 class="empty__header">
+        Пустая страница-заглушка:)
+      </h3>
+    </section>
+    <section class="adress-company">
+      <h2 class="visually-hidden">
+        <b>
+          <i>
+            Наш адрес
+          </i>
+        </b>
+      </h2>
+      <div class="adress-company__wrap">
+        <p class="adress-company__wrap-p">
+          приглашаем<br>
+          к сотрудничеству<br> дилеров!
+        </p>
+        <address class="adress-company__wrap-info">
+          ул. Большая<br>
+          Конюшенная, д. 19/8<br>
+          Санкт-Петербург
+        </address>
+      </div>
+    </section>
+    <footer class="footer-info-company">
+      <h2 class="visually-hidden">
+        <b>
+          <i>
+            Подвал сайта
+          </i>
+        </b>
+      </h2>
+      <ul class="footer-info-company__wrap">
+        <li class="footer-info-company__wrap-item">
+          <a class="footer-info-company__wrap-container-item-link">
+            <img src="../source/img/logo-footer.svg"
+              width="128" height="24" alt="Логотип магазина">
+          </a>
+        </li>
+        <li class="footer-info-company__wrap-item">
+          <ul class="footer-info-company__wrap-container">
+            <li class="footer-info-company__wrap-container-item">
+              <a class="footer-info-company__wrap-container-item-link" href="#">
+                <img class="footer-info-company__wrap-container-item-img"
+                  src="../source/img/icon-vk.svg"
+                  width="23" height="16" alt="ВК">
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer-info-company__wrap-item">
+          <a class="footer-info-company__wrap-item-link"
+            href="https://htmlacademy.ru/intensive/adaptive">
+            HTML Academy
+            <img class="footer-info-company__wrap-item-img"
+              src="../source/img/logo-html-academy-footer.svg"
+              width="27" height="34" alt="HTML Academy">
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
