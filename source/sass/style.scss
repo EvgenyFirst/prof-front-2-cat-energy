@@ -1,1 +1,16 @@
-// Начните писать стили здесь
+// Global
+@import "global/variables.scss";
+@import "global/global.scss";
+@import "global/fonts.scss";
+
+// Blocks-global
+@import "blocks/header-nav.scss";
+@import "blocks/adress-company.scss";
+@import "blocks/map-company.scss";
+@import "blocks/footer-info-company.scss";
+
+// Blocks-index
+@import "blocks/effect-eat.scss";
+@import "blocks/option-eat.scss";
+@import "blocks/what-work.scss";
+@import "blocks/use-product.scss";

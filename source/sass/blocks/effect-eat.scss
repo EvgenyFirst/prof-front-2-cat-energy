@@ -1,0 +1,122 @@
+.effect-eat {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: -96px;
+}
+
+.effect-eat__container {
+  position: relative;
+
+  width: 320px;
+  height: 384px;
+
+  background-color: $green-main;
+  background-image: url("../../img/index-bg-cat-desktop.jpg");
+  background-position-x: -154px;
+  background-position-y: 81px;
+
+  &::after {
+    content: " ";
+
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    min-height: 384px;
+
+    background-color: $green-main;
+    background-size: cover;
+
+    opacity: 0.85;
+  }
+}
+
+.effect-eat__container-span {
+  display: block;
+
+  position: relative;
+
+  width: 100%;
+  min-height: 82px;
+
+  background-color: $white;
+
+  z-index: 2;
+}
+
+.effect-eat__header {
+  position: relative;
+
+  margin-top: 27px;
+  margin-bottom: 2px;
+
+  color: $white;
+  font-size: 36px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-transform: none;
+
+  z-index: 2;
+}
+
+.effect-eat__info {
+  position: relative;
+
+  margin-top: 23px;
+  margin-bottom: 2px;
+
+  color: $white;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+
+  z-index: 2;
+}
+
+.effect-eat__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.effect-eat__img {
+  position: relative;
+
+  margin-top: -137px;
+}
+
+.effect-eat-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 40px;
+
+  color: $white;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+
+  background-color: $green-main;
+}
