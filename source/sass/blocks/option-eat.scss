@@ -1,4 +1,9 @@
 .option-eat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -6,7 +11,11 @@
 .option-eat__ul {
   list-style: none;
 
-  width: 100%;
+  width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   padding-left: 0;
 }
@@ -103,7 +112,7 @@
 .option-eat__ul-link {
   color: $black;
   font-size: 16px;
-  font-family: "Oswald",sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0;

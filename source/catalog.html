@@ -5,6 +5,7 @@
     <meta name="viewport"
       content="initial-scale=1,maximum-scale=1,width=device-width">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>HTML Academy: Кэт энерджи, страница каталога</title>
   </head>
   <body>
@@ -20,19 +21,21 @@
         <li class="header-nav__nav-item">
           <ul class="header-nav__wrap-top-nav">
             <li class="header-nav__wrap-top-nav-item">
-              <a href="index.html">
-                <img
-                  src="img/logo-heder-top-mobile.svg"
+              <a class="header-nav__wrap-top-nav-item-link" href="index.html">
+                <img class="header-nav__wrap-top-nav-item-link-img-top"
+                  src="img/logo-header-top-mobile.svg"
                   width="35" height="38"
                   alt="logo-ico">
-                <img
-                  src="img/logo-header-mobile.svg"
-                  width="102" height="19"
-                  alt="logo-cat-energy">
               </a>
             </li>
             <li class="header-nav__wrap-top-nav-item">
-              <button type="button">
+              <img class="header-nav__wrap-top-nav-item-link-img"
+                src="img/logo-header-mobile.svg"
+                width="102" height="19"
+                alt="logo-cat-energy">
+            </li>
+            <li class="header-nav__wrap-top-nav-item">
+              <button class="header-nav__wrap-top-nav-item-btn" type="button">
                 <img
                   src="img/btn-closed-nav-mobile.svg"
                   width="24" height="18"
@@ -448,7 +451,6 @@
         </li>
       </ul>
     </section>
-
     <section class="additional-products">
       <h2 class="visually-hidden">
         <b>
@@ -481,7 +483,6 @@
               </button>
             </div>
           </li>
-
           <li class="additional-products__ul-li">
             <div class="additional-products__ul-li-div">
               <p class="additional-products__ul-li-div-ingredient">
@@ -502,7 +503,6 @@
               </button>
             </div>
           </li>
-
           <li class="additional-products__ul-li">
             <div class="additional-products__ul-li-div">
               <p class="additional-products__ul-li-div-ingredient">
@@ -523,7 +523,6 @@
               </button>
             </div>
           </li>
-
           <li class="additional-products__ul-li">
             <div class="additional-products__ul-li-div">
               <p class="additional-products__ul-li-div-ingredient">
@@ -545,7 +544,6 @@
             </div>
           </li>
         </ul>
-
         <div class="additional-products__gift-block">
           <img src="img/icon-gift-mobile.svg" width="78" height="80"
             alt="Иконка подарка">
@@ -571,7 +569,7 @@
         <address class="adress-company__wrap-info">
           ул. Большая<br>
           Конюшенная, д. 19/8<br>
-          Санкт-Петербуh1рг
+          Санкт-Петербург
         </address>
       </div>
     </section>
@@ -584,11 +582,14 @@
           </i>
         </b>
       </h2>
-      <img class="map-company-img" src="img/map-mobile.jpg"
-        width="320"
-        height="362" alt="Карта">
-      <img class="map-company-img" src="img/map-pin-mobile.svg"
-        width="57" height="53" alt="Местоположение компании на карте">
+      <div class="map-company__container">
+        <img class="map-company-img" src="img/map-mobile.jpg"
+          width="320"
+          height="362" alt="Карта">
+        <img class="map-company-img map-company-img-pin"
+          src="img/map-pin-mobile.svg"
+          width="57" height="53" alt="Местоположение компании на карте">
+      </div>
     </section>
     <footer class="footer-info-company">
       <h2 class="visually-hidden">
@@ -600,7 +601,8 @@
       </h2>
       <ul class="footer-info-company__wrap">
         <li class="footer-info-company__wrap-item">
-          <a class="footer-info-company__wrap-container-item-link">
+          <a class="footer-info-company__wrap-container-item-link"
+            href="index.html">
             <img src="img/logo-footer.svg"
               width="128" height="24" alt="Логотип магазина">
           </a>

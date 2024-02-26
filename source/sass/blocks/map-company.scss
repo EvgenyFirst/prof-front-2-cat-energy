@@ -1,1 +1,27 @@
-// Начните писать стили здесь
+.map-company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-company__container {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 320px;
+}
+
+.map-company-img-pin {
+  position: absolute;
+  top: 38%;
+  left: 42%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

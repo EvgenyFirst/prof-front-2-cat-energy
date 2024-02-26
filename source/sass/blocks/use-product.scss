@@ -1,1 +1,158 @@
-// Начните писать стили здесь
+.use-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 27px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  background-color: $very-lighter-grey;
+}
+
+.use-product__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.use-product__header {
+  color: $black;
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.use-product__info {
+  color: $light-black;
+  font-size: 14px;
+  text-align: left;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-transform: none;
+
+  margin-bottom: 20px;
+}
+
+.use-product__wrap {
+  margin-top: 5px;
+
+  padding-bottom: 20px;
+}
+
+.use-product__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.use-product__change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 124px;
+  height: 76px;
+
+  margin-right: 1px;
+  margin-left: 1px;
+
+  border: 1px solid $very-lighter-grey-two;
+
+  text-align: center;
+
+  transform: rotate(180deg);
+}
+
+.use-product__change-legend {
+  color: $light-black;
+  font-size: 9px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0;
+  text-align: center;
+  transform: rotate(180deg);
+
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.use-product__change-p {
+  color: $black;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center;
+  transform: rotate(180deg);
+}
+
+.use-product__change-p-money {
+  color: $black;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+
+  padding-top: 6px;
+}
+
+.use-product__slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.use-product__slider-ul {
+  padding-bottom: 12px;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.use-product__slider-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 11px;
+  padding-bottom: 25px;
+
+  min-width: 228px;
+  min-height: 40px;
+}
+
+.use-product__slider-buttons-label {
+  color: $black;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.use-product__slider-buttons-fieldset {
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 84px;
+  min-height: 14px;
+
+  padding-top: 0;
+  padding-bottom: 0;
+}

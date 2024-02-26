@@ -1,1 +1,41 @@
-// Начните писать стили здесь
+.adress-company {
+  margin: 0 auto;
+
+  width: 320px;
+
+  padding-top: 28px;
+  padding-right: 19px;
+  padding-left: 19px;
+  padding-bottom: 28px;
+}
+
+.adress-company__wrap-index {
+  background-color: $white;
+}
+
+.adress-company__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adress-company__wrap-p {
+  color: $lite-black;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.adress-company__wrap-info {
+  color: $light-black;
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: none;
+}
