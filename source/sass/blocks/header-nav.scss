@@ -21,11 +21,14 @@
   justify-content: space-between;
   align-items: center;
 
+  border-bottom: 2px solid $lighter-grey;
+
   width: 100%;
 
-  margin-top: 12px;
+  margin-top: 11px;
 
   padding-right: 21.84px;
+  padding-bottom: 18px;
   padding-left: 21.84px;
 }
 
@@ -65,7 +68,16 @@
 
   overflow: hidden;
   white-space: nowrap;
+
   padding: 22px 0;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  &:last-child {
+    border-bottom: 2px solid $lighter-grey;
+  }
 }
 
 .header-nav__wrap-bottom-nav-link {
