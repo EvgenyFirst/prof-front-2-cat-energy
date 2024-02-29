@@ -10,7 +10,7 @@
 
   margin-top: 27px;
   margin-right: 20px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   margin-left: 20px;
 }
 
@@ -121,6 +121,8 @@
 }
 
 .program-eat__form-ul-option-item-input {
+  margin-right: 16px;
+
   &:hover {
     cursor: pointer;
   }
@@ -141,11 +143,28 @@
 }
 
 .program-eat__block {
-  border-bottom: 1px solid $very-light-grey;
+  border: none;
 }
 
-.program-eat__block {
-  border: none;
+.program-eat__block-data {
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 20.57px;
+  padding-left: 20px;
+}
+
+.program-eat__block-comment {
+  padding-top: 3px;
+  padding-right: 20px;
+  padding-bottom: 20.75px;
+  padding-left: 20px;
+}
+
+.program-eat__block-add-personal {
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 32px;
+  padding-left: 20px;
 }
 
 .program-eat__block-add {
@@ -174,10 +193,164 @@
   position: absolute;
   right: 0;
 
-  margin-right: -11px;
+  margin-right: -21px;
 
-  width: 100px;
+  width: auto;
+  min-width: 100px;
   min-height: 2px;
 
   background-color: $green-main;
+}
+
+.program-eat__block-add-span-comment {
+  min-width: 158px;
+}
+
+.program-eat__block-add-span-add-personal {
+  min-width: 136px;
+}
+
+.program-eat__block-ul {
+  list-style: none;
+
+  padding-left: 0;
+}
+
+.program-eat__block-ul-li-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  position: relative;
+}
+
+.program-eat__block-ul-li-wrap-label {
+  color: $light-black;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+
+  min-width: fit-content;
+
+  margin-right: 11px;
+}
+
+.program-eat__block-ul-li-wrap-input {
+  width: 100%;
+  min-width: 176px;
+  min-height: 46px;
+
+  border: 1px solid $very-light-grey;
+
+  &::placeholder {
+    color: $light-black;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+
+    padding-top: 13.45px;
+    padding-right: 51px;
+    padding-bottom: 15.45px;
+    padding-left: 10px;
+  }
+}
+
+.program-eat__block-ul-li-wrap-input-email {
+  display: block;
+
+  position: absolute;
+  right: 16px;
+
+  width: 20px;
+  min-height: 14.05px;
+
+  background-image: url("../../img/icon-email-mobile.svg");
+}
+
+.program-eat__block-ul-li-wrap-input-tel {
+  display: block;
+
+  position: absolute;
+  right: 13px;
+
+  width: 20px;
+  min-height: 20.07px;
+
+  background-image: url("../../img/icon-phone-mobile.svg");
+}
+
+.program-eat__block-items {
+  list-style: none;
+
+  margin-top: 34px;
+
+  padding-left: 0;
+}
+
+.program-eat__block-item-input {
+  margin-right: 18px;
+}
+
+.program-eat__block-item-label {
+  color: $black;
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+.program-eat__block-button {
+  padding-right: 20px;
+  padding-left: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.program-eat__block-button-elem {
+  border: none;
+
+  background-color: $green-main;
+
+  width: 100%;
+  min-height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: $white;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.program-eat__block-button-p {
+  color: $black;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-transform: none;
 }

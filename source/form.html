@@ -135,7 +135,7 @@
               for="filter-advice">Не знаю (Нужен ваш совет)</label>
           </li>
         </ul>
-        <fieldset class="program-eat__block">
+        <fieldset class="program-eat__block program-eat__block-data">
           <legend class="program-eat__block-add">
             Контактные данные<br>
             (владельца кота)
@@ -150,6 +150,7 @@
                   id="owner-email-for-owner" type="email"
                   name="emailOwnerForCat"
                   placeholder="kuklachev@gmail.com" tabindex="0" required>
+                <span class="program-eat__block-ul-li-wrap-input-email"></span>
               </p>
             </li>
             <li class="program-eat__block-ul-li">
@@ -159,46 +160,60 @@
                 <input class="program-eat__block-ul-li-wrap-input"
                   id="owner-tel-for-owner" type="tel" name="phoneOwnerForCat"
                   placeholder="8 (960) 900-60-90" tabindex="0" required>
+                <span class="program-eat__block-ul-li-wrap-input-tel"></span>
               </p>
             </li>
           </ul>
         </fieldset>
-        <fieldset class="program-eat__block">
-          <legend class="program-eat__block-add">Комментарий</legend>
+        <fieldset class="program-eat__block program-eat__block-comment">
+          <legend class="program-eat__block-add">
+            Комментарий
+            <span
+              class="program-eat__block-add-span program-eat__block-add-span-comment"></span>
+          </legend>
           <p class="program-eat__block-add-wrap">
-            <textarea class="program-eat__block-add-wrap-comment" name="infoCat"
+            <textarea class="program-eat__block-add-wrap-comment"
+              name="infoCat"
               id="info-cat" cols="1" rows="1"
               placeholder="Расскажите обо всех повАдках кота"
               tabindex="0"></textarea>
           </p>
         </fieldset>
-        <ul class="program-eat__block-items">
-          <li class="program-eat__block-item">
-            <input class="program-eat__block-item-input" type="checkbox"
-              name="Дополнительные опции: " id="option-sweetener" checked
-              value="сахарозаменитель">
-            <label class="program-eat__block-item-label"
-              for="option-sweetener">сахарозаменитель</label>
-          </li>
-          <li class="program-eat__block-item">
-            <input class="program-eat__block-item-input" type="checkbox"
-              name="Дополнительные опции: " id="option-drinking-water"
-              value="питьевая вода">
-            <label class="program-eat__block-item-label"
-              for="option-drinking-water">питьевая вода</label>
-          </li>
-          <li class="program-eat__block-item">
-            <input class="program-eat__block-item-input" type="checkbox"
-              name="Дополнительные опции: " id="option-milk" value="молоко">
-            <label class="program-eat__block-item-label"
-              for="option-milk">молоко</label>
-          </li>
-          <li class>
-            <input class type="checkbox" name="Дополнительные опции: "
-              id="option-vitamins" value="витамины">
-            <label class for="option-vitamins">витамины</label>
-          </li>
-        </ul>
+        <fieldset class="program-eat__block program-eat__block-add-personal">
+          <legend class="program-eat__block-add">
+            Дополнительно
+            <span
+              class="program-eat__block-add-span program-eat__block-add-span-add-personal"></span>
+          </legend>
+          <ul class="program-eat__block-items">
+            <li class="program-eat__block-item">
+              <input class="program-eat__block-item-input" type="checkbox"
+                name="Дополнительные опции: " id="option-sweetener" checked
+                value="сахарозаменитель">
+              <label class="program-eat__block-item-label"
+                for="option-sweetener">сахарозаменитель</label>
+            </li>
+            <li class="program-eat__block-item">
+              <input class="program-eat__block-item-input" type="checkbox"
+                name="Дополнительные опции: " id="option-drinking-water"
+                value="питьевая вода">
+              <label class="program-eat__block-item-label"
+                for="option-drinking-water">питьевая вода</label>
+            </li>
+            <li class="program-eat__block-item">
+              <input class="program-eat__block-item-input" type="checkbox"
+                name="Дополнительные опции: " id="option-milk" value="молоко">
+              <label class="program-eat__block-item-label"
+                for="option-milk">молоко</label>
+            </li>
+            <li class>
+              <input class="program-eat__block-item-input" type="checkbox"
+                name="Дополнительные опции: "
+                id="option-vitamins" value="витамины">
+              <label class for="option-vitamins">витамины</label>
+            </li>
+          </ul>
+        </fieldset>
         <div class="program-eat__block-button">
           <button class="program-eat__block-button-elem" id="button"
             type="submit" tabindex="0">
@@ -210,7 +225,7 @@
         </div>
       </form>
     </section>
-    <section class="adress-company">
+    <section class="adress-company adress-company__form">
       <h2 class="visually-hidden">
         <b>
           <i>
@@ -248,7 +263,7 @@
           width="57" height="53" alt="Местоположение компании на карте">
       </div>
     </section>
-    <footer class="footer-info-company">
+    <footer class="footer-info-company footer-info-company__form">
       <h2 class="visually-hidden">
         <b>
           <i>
