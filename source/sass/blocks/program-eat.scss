@@ -1,0 +1,183 @@
+.program-eat__header {
+  color: $black;
+  font-size: 36px;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-transform: none;
+
+  margin-top: 27px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.program-eat__p {
+  color: $black;
+  font-size: 14px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+
+  margin-top: 7px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.program-eat__form {
+  margin-top: 9px;
+
+  border-top: 1px solid $very-lighter-grey;
+  border-bottom: 1px solid $very-lighter-grey;
+}
+
+.program-eat__form-ul {
+  list-style: none;
+
+  margin-right: 20px;
+  margin-left: 20px;
+
+  padding-left: 0;
+}
+
+.program-eat__form-ul-item-data-p {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.program-eat__form-ul-item-data-label {
+  color: $light-black;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+
+  min-width: fit-content;
+
+  margin-right: 14px;
+}
+
+.program-eat__form-ul-item-data-input {
+  width: 100%;
+  min-width: 176px;
+  min-height: 46px;
+
+  border: 1px solid $very-light-grey;
+
+  &::placeholder {
+    color: $light-black;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+
+    padding-top: 13.2px;
+    padding-right: 15.12px;
+    padding-bottom: 14.8px;
+    padding-left: 15.12px;
+  }
+}
+
+.program-eat__form-ul-option {
+  list-style: none;
+
+  padding-top: 23px;
+  padding-right: 20px;
+  padding-bottom: 19.38px;
+  padding-left: 20px;
+
+  border-top: 1px solid $very-light-grey;
+  border-bottom: 1px solid $very-light-grey;
+}
+
+.program-eat__form-ul-option-item {
+  padding-top: 23px;
+  padding-bottom: 19.38px;
+
+  &:first-child {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &:last-child {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.program-eat__form-ul-option-item-input {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.program-eat__form-ul-option-item-label {
+  color: $lighter-black;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.program-eat__block {
+  border-bottom: 1px solid $very-light-grey;
+}
+
+.program-eat__block {
+  border: none;
+}
+
+.program-eat__block-add {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+
+  margin-right: 14px;
+
+  position: relative;
+
+  color: $black;
+  font-size: 24px;
+  text-align: left;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.program-eat__block-add-span {
+  display: block;
+
+  position: absolute;
+  right: 0;
+
+  margin-right: -11px;
+
+  width: 100px;
+  min-height: 2px;
+
+  background-color: $green-main;
+}
