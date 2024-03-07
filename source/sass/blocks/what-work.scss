@@ -8,6 +8,11 @@
 
   padding-right: 21px;
   padding-left: 20px;
+
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 .what-work__header {
@@ -21,6 +26,11 @@
   text-transform: none;
 
   margin-bottom: 30px;
+
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .what-work__ul {
@@ -29,6 +39,13 @@
   margin-top: 8px;
 
   padding-left: 0;
+
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 
 .what-work__item {
@@ -37,24 +54,24 @@
 
   &:first-child {
     margin-top: 0;
+
+    @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+      margin-right: 153px;
+
+      padding-top: 40px;
+      padding-bottom: 63px;
+    }
+  }
+
+  &:nth-child(3) {
+    @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+      margin-right: 153px;
+    }
   }
 
   &:last-child {
     padding-bottom: 10px;
   }
-}
-
-.what-work__item-info-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 60px;
-  min-height: 60px;
-
-  margin-right: 20px;
-
-  background-color: $green-main;
 }
 
 .what-work__item-info {
@@ -69,4 +86,161 @@
 
   display: flex;
   flex-direction: row;
+
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+
+    min-width: 246px;
+
+    flex-direction: column;
+  }
+}
+
+.what-work__item-info-one {
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    position: relative;
+
+    &::after {
+      content: " ";
+      display: block;
+
+      position: absolute;
+      right: 53px;
+      bottom: -44px;
+
+      background-image: url("../../img/what-work-1-tablet.svg");
+      background-repeat: no-repeat;
+
+      width: 71px;
+      height: 227px;
+
+      z-index: -1;
+    }
+  }
+}
+
+.what-work__item-info-two {
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    position: relative;
+
+    &::after {
+      content: " ";
+      display: block;
+
+      position: absolute;
+      right: 13px;
+      bottom: -44px;
+
+      background-image: url("../../img/what-work-2-tablet.svg");
+      background-repeat: no-repeat;
+
+      width: 113px;
+      height: 229px;
+
+      z-index: -1;
+    }
+  }
+}
+
+.what-work__item-info-three {
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    position: relative;
+
+    &::after {
+      content: " ";
+      display: block;
+
+      position: absolute;
+      right: 13px;
+      bottom: -44px;
+
+      background-image: url("../../img/what-work-3-tablet.svg");
+      background-repeat: no-repeat;
+
+      width: 112px;
+      height: 232px;
+
+      z-index: -1;
+    }
+  }
+}
+
+.what-work__item-info-four {
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    position: relative;
+
+    &::after {
+      content: " ";
+      display: block;
+
+      position: absolute;
+      right: 13px;
+      bottom: -44px;
+
+      background-image: url("../../img/what-work-4-tablet.svg");
+      background-repeat: no-repeat;
+
+      width: 121px;
+      height: 227px;
+
+      z-index: -1;
+    }
+  }
+}
+
+.what-work__item-info-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  min-height: 60px;
+
+  margin-right: 20px;
+
+  background-color: $green-main;
+
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    width: 80px;
+    min-height: 80px;
+
+    margin-bottom: 31px;
+    margin-right: 0;
+  }
+}
+
+.what-work__item-info-wrap-img-tablet-two {
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    width: 20px;
+    height: 31px;
+  }
+}
+
+.what-work__item-info-wrap-img-tablet-three {
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    width: 25px;
+    height: 30px;
+  }
+}
+
+.what-work__item-info-wrap-img-tablet-four {
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    width: 32px;
+    height: 31px;
+  }
+}
+
+.what-work__item-info-mobile {
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    display: none;
+  }
+}
+
+.what-work__item-info-tablet {
+  display: none;
+
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    display: block;
+  }
 }

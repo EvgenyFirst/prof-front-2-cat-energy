@@ -1,5 +1,9 @@
 .master {
   scroll-behavior: smooth;
+
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    display: grid;
+  }
 }
 
 img {
@@ -24,6 +28,12 @@ body {
   text-transform: uppercase;
 
   color: $black;
+
+  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .visually-hidden:not(:focus):not(:active),
