@@ -9,7 +9,7 @@
   padding-right: 21px;
   padding-left: 20px;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -27,7 +27,7 @@
 
   margin-bottom: 30px;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
   }
@@ -40,7 +40,7 @@
 
   padding-left: 0;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -55,17 +55,25 @@
   &:first-child {
     margin-top: 0;
 
-    @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    @media screen and (min-width: $tablet-width) {
       margin-right: 153px;
 
       padding-top: 40px;
       padding-bottom: 63px;
     }
+
+    @media screen and (min-width: $tablet-width) {
+      margin-right: 0;
+    }
   }
 
   &:nth-child(3) {
-    @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+    @media screen and (min-width: $tablet-width) {
       margin-right: 153px;
+    }
+
+    @media screen and (min-width: $tablet-width) {
+      margin-right: 0;
     }
   }
 
@@ -87,7 +95,7 @@
   display: flex;
   flex-direction: row;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
 
@@ -98,7 +106,7 @@
 }
 
 .what-work__item-info-one {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     position: relative;
 
     &::after {
@@ -121,7 +129,7 @@
 }
 
 .what-work__item-info-two {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     position: relative;
 
     &::after {
@@ -144,7 +152,7 @@
 }
 
 .what-work__item-info-three {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     position: relative;
 
     &::after {
@@ -167,7 +175,7 @@
 }
 
 .what-work__item-info-four {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     position: relative;
 
     &::after {
@@ -201,7 +209,7 @@
 
   background-color: $green-main;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     width: 80px;
     min-height: 80px;
 
@@ -211,28 +219,27 @@
 }
 
 .what-work__item-info-wrap-img-tablet-two {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     width: 20px;
     height: 31px;
   }
 }
 
 .what-work__item-info-wrap-img-tablet-three {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     width: 25px;
     height: 30px;
   }
 }
 
 .what-work__item-info-wrap-img-tablet-four {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
-    width: 32px;
+  @media screen and (min-width: $tablet-width) {
     height: 31px;
   }
 }
 
 .what-work__item-info-mobile {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     display: none;
   }
 }
@@ -240,7 +247,7 @@
 .what-work__item-info-tablet {
   display: none;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     display: block;
   }
 }

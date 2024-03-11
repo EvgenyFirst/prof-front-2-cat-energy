@@ -10,7 +10,7 @@
   padding-right: 30px;
   padding-left: 30px;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     align-items: flex-start;
   }
 }
@@ -41,7 +41,7 @@
     opacity: 0.85;
   }
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     background: none;
 
     width: 100%;
@@ -82,7 +82,7 @@
 
   z-index: 2;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     color: $black;
     font-size: 60px;
     text-align: left;
@@ -109,7 +109,7 @@
 
   z-index: 2;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     color: $black;
     font-size: 20px;
     text-align: left;
@@ -122,7 +122,7 @@
 }
 
 .effect-eat__container-tablet {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -137,13 +137,13 @@
 }
 
 .effect-eat__wrapper-bg-tablet {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     margin-top: -87px;
   }
 }
 
 .effect-eat__wrapper-tablet {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     width: auto;
 
     margin-top: -60px;
@@ -157,7 +157,7 @@
 }
 
 .effect-eat__img-span {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     background-image: url("../../img/eat-cat-tablet.jpg");
 
     width: 709px;
@@ -170,7 +170,7 @@
 
   margin-top: -137px;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     display: none;
   }
 }
@@ -194,7 +194,7 @@
 
   background-color: $green-main;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     width: 100%;
     min-width: 244px;
     min-height: 54px;

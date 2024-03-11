@@ -1,9 +1,5 @@
 .master {
   scroll-behavior: smooth;
-
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
-    display: grid;
-  }
 }
 
 img {
@@ -16,7 +12,9 @@ a {
 }
 
 body {
+  width: 100%;
   min-width: 320px;
+  max-width: 767px;
 
   margin: 0 auto;
 
@@ -29,10 +27,11 @@ body {
 
   color: $black;
 
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  @media screen and (min-width: $tablet-width) {
+    display: grid;
+
+    min-width: 768px;
+    max-width: 1439px;
   }
 }
 
