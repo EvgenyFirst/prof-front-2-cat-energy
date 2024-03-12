@@ -25,8 +25,9 @@
   padding-left: 0;
 
   @media screen and (min-width: $tablet-width) {
-    width: 708px;
-    min-height: 372px;
+    width: 100%;
+
+    justify-content: flex-start;
   }
 }
 
@@ -43,13 +44,11 @@
   background-color: $light-grey;
 
   @media screen and (min-width: $tablet-width) {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: 98%;
+    min-height: 372px;
 
-    padding-top: 77px;
-    padding-right: 62px;
-    padding-bottom: 53px;
-    padding-left: 62px;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
@@ -62,8 +61,6 @@
 
   @media screen and (min-width: $tablet-width) {
     flex-direction: row-reverse;
-
-    position: relative;
   }
 }
 
@@ -94,9 +91,9 @@
   }
 
   @media screen and (min-width: $tablet-width) {
-    position: absolute;
-    top: 47px;
-    left: 386px;
+    position: relative;
+    top: 178px;
+    left: 38px;
   }
 }
 
@@ -106,25 +103,14 @@
   display: block;
 
   margin-bottom: 3px;
-
-  @media screen and (min-width: $tablet-width) {
-    opacity: 0;
-  }
 }
 
 .option-eat__wrap-container-img-sitting {
   margin-left: 7px;
 
   @media screen and (min-width: $tablet-width) {
-    background-image: url("../../img/cat-sitting-tablet.svg");
-    background-repeat: no-repeat;
-
     width: 140px;
     height: 192px;
-
-    display: block;
-
-    opacity: 1;
 
     margin-top: -22px;
     margin-left: 33px;
@@ -135,18 +121,10 @@
   margin-left: -7.5px;
 
   @media screen and (min-width: $tablet-width) {
-    background-image: url("../../img/the-cat-is-walking-tablet.svg");
-    background-repeat: no-repeat;
-
     width: 268px;
-    height: 112px;
+    height: 200px;
 
-    display: block;
-
-    opacity: 1;
-
-    margin-top: -15px;
-    margin-left: -36px;
+    margin-left: -34.5px;
   }
 }
 
@@ -184,11 +162,8 @@
 
   border-bottom: 2px solid $grey;
 
-  overflow: hidden;
-  white-space: nowrap;
-
   @media screen and (min-width: $tablet-width) {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
 
     border-bottom: none;

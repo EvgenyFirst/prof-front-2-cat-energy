@@ -135,6 +135,10 @@
 
   &:last-child {
     border-bottom: 2px solid $lighter-grey;
+
+    @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+      border: none;
+    }
   }
 
   @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {

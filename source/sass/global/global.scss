@@ -24,7 +24,6 @@ body {
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
-
   color: $black;
 
   @media screen and (min-width: $tablet-width) {
@@ -39,6 +38,7 @@ body {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   margin: -1px;
+
   padding: 0;
 
   width: 1px;

@@ -87,9 +87,6 @@
   display: flex;
   justify-content: space-between;
 
-  @media screen and (min-width: $tablet-width) {
-    min-width: 366px;
-  }
 }
 
 .use-product__change {
@@ -111,7 +108,7 @@
 
   &:first-child {
     @media screen and (min-width: $tablet-width) {
-      margin-right: 42px;
+      margin-right: 0;
     }
   }
 }
