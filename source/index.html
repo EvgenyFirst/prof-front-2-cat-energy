@@ -288,33 +288,55 @@
         </div>
         <div class="use-product__slider">
           <ul class="use-product__slider-ul">
-            <li class="use-product__slider-ul-item">
+            <li
+              class="use-product__slider-ul-item">
+              <span class="use-product__slider-ul-item-tablet-left"></span>
               <img class="use-product__slider-ul-img"
                 src="img/before-cat-mobile.png"
                 width="251" height="240" alt="Кот до">
             </li>
-            <li class="use-product__slider-ul-item">
+            <li
+              class="use-product__slider-ul-item">
+              <span class="use-product__slider-ul-item-tablet-right"></span>
               <img class="use-product__slider-ul-img"
                 src="img/after-cat-mobile.png"
                 width="251" height="240" alt="Кот после">
             </li>
           </ul>
           <div class="use-product__slider-buttons">
-            <label class="use-product__slider-buttons-label"
+            <label
+              class="use-product__slider-buttons-label use-product__slider-buttons-label-mobile"
               for="before">было</label>
+            <label
+              class="use-product__slider-buttons-label use-product__slider-buttons-label-tablet"
+              for="before-after">было</label>
             <fieldset class="use-product__slider-buttons-fieldset">
-              <input class="use-product__slider-buttons-input" type="radio"
+              <input
+                class="use-product__slider-buttons-input use-product__slider-buttons-input-mobile"
+                type="radio"
                 id="before" name="before-after-cat"
                 value="before" checked>
-              <input class="use-product__slider-buttons-input" type="radio"
+              <input
+                class="use-product__slider-buttons-input use-product__slider-buttons-input-mobile"
+                type="radio"
                 id="after" name="before-after-cat"
                 value="after">
+              <input class="use-product__slider-buttons-input
+                use-product__slider-buttons-input-tablet" type="range"
+                id="before-after" name="before-after-cat"
+                min="0" max="100"
+                value="50" step="10" />
             </fieldset>
-            <label class="use-product__slider-buttons-label"
+            <label
+              class="use-product__slider-buttons-label use-product__slider-buttons-label-mobile"
               for="after">стало</label>
+            <label
+              class="use-product__slider-buttons-label use-product__slider-buttons-label-tablet"
+              for="before-after">стало</label>
           </div>
         </div>
       </div>
+      <span class="use-product__bg-tablet"></span>
     </section>
     <section class="adress-company">
       <h2 class="visually-hidden">
