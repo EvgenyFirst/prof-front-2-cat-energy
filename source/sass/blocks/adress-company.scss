@@ -5,8 +5,13 @@
 
   padding-top: 28px;
   padding-right: 19px;
-  padding-left: 19px;
   padding-bottom: 28px;
+  padding-left: 19px;
+
+  @media screen and (min-width: $tablet-width) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 .adress-company__catalog {
@@ -31,6 +36,11 @@
 
   margin-right: auto;
   margin-left: auto;
+
+  @media screen and (min-width: $tablet-width) {
+    min-width: 708px;
+    max-width: 1439px;
+  }
 }
 
 .adress-company__wrap-p {
@@ -40,6 +50,12 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0;
+
+  @media screen and (min-width: $tablet-width) {
+    color: $dark-black;
+    font-size: 20px;
+    line-height: 21px;
+  }
 }
 
 .adress-company__wrap-info {
@@ -51,4 +67,9 @@
   line-height: 20px;
   letter-spacing: 0;
   text-transform: none;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 16px;
+    text-align: right;
+  }
 }

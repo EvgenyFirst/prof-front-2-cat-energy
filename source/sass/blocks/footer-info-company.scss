@@ -13,6 +13,14 @@
   padding-right: 20px;
   padding-bottom: 39px;
   padding-left: 20px;
+
+  @media screen and (min-width: $tablet-width) {
+    min-width: 768px;
+    max-width: 1439px;
+
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 
 .footer-info-company__catalog {
@@ -34,6 +42,11 @@
   width: 100%;
 
   padding-left: 0;
+
+  @media screen and (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .footer-info-company__wrap-container {
@@ -61,6 +74,17 @@
   &:last-child {
     border-bottom: none;
   }
+
+  @media screen and (min-width: $tablet-width) {
+    position: relative;
+  }
+}
+
+.footer-info-company__wrap-container-item-link-logo {
+  @media screen and (min-width: $tablet-width) {
+    position: absolute;
+    left: 0;
+  }
 }
 
 .footer-info-company__wrap-item-link {
@@ -78,4 +102,10 @@
   line-height: normal;
   letter-spacing: 0;
   text-transform: none;
+
+  @media screen and (min-width: $tablet-width) {
+    justify-content: space-around;
+
+    padding-left: 71px;
+  }
 }

@@ -8,7 +8,7 @@
   padding-left: 20px;
 
   @media screen and (min-width: $tablet-width) {
-    padding-right: 30px;
+    padding-right: 15px;
     padding-left: 30px;
   }
 }
@@ -37,9 +37,6 @@
 
   margin-top: 20px;
   margin-bottom: 20px;
-
-  padding-right: 20px;
-  padding-left: 20px;
 
   background-color: $light-grey;
 
@@ -87,15 +84,21 @@
     background-color: $green-main;
 
     @media screen and (min-width: $tablet-width) {
+      position: absolute;
+      top: -168px;
+      left: -221px;
+
       min-width: 200px;
       min-height: 200px;
     }
   }
 
   @media screen and (min-width: $tablet-width) {
+    width: auto;
+
     position: relative;
     top: 178px;
-    left: 81px;
+    left: -8px;
   }
 }
 
@@ -111,11 +114,15 @@
   margin-left: 7px;
 
   @media screen and (min-width: $tablet-width) {
-    width: 140px;
+    display: block;
+
+    min-width: 140px;
     height: 192px;
 
-    margin-top: -22px;
-    margin-left: 33px;
+    margin-top: -181px;
+    margin-left: -184px;
+
+    z-index: 2;
   }
 }
 
@@ -123,10 +130,15 @@
   margin-left: -7.5px;
 
   @media screen and (min-width: $tablet-width) {
-    width: 268px;
+    display: block;
+
+    min-width: 268px;
     height: 200px;
 
-    margin-left: -34.5px;
+    margin-top: -122px;
+    margin-left: -251px;
+
+    z-index: 2;
   }
 }
 
