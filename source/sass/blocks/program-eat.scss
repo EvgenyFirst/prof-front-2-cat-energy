@@ -1,3 +1,10 @@
+.program-eat {
+  @media screen and (min-width: $tablet-width) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
 .program-eat__header {
   color: $black;
   font-size: 36px;
@@ -10,8 +17,17 @@
 
   margin-top: 27px;
   margin-right: 20px;
-  padding-bottom: 30px;
   margin-left: 20px;
+
+  padding-bottom: 30px;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+
+    margin-right: 39px;
+    margin-left: 39px;
+  }
 }
 
 .program-eat__p {
@@ -28,6 +44,14 @@
   margin-right: 20px;
   margin-bottom: 30px;
   margin-left: 20px;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-right: 39px;
+    margin-left: 39px;
+  }
 }
 
 .program-eat__form {
@@ -35,6 +59,14 @@
 
   border-top: 1px solid $very-lighter-grey;
   border-bottom: 1px solid $very-lighter-grey;
+
+  @media screen and (min-width: $tablet-width) {
+    margin-right: 39px;
+    margin-left: 39px;
+
+    border-top: 1px solid $special-grey;
+    border-bottom: 1px solid $special-grey;
+  }
 }
 
 .program-eat__form-ul {
@@ -44,6 +76,11 @@
   margin-left: 20px;
 
   padding-left: 0;
+
+  @media screen and (min-width: $tablet-width) {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .program-eat__form-ul-item-data-p {
@@ -64,6 +101,11 @@
   min-width: fit-content;
 
   margin-right: 14px;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 
 .program-eat__form-ul-item-data-input {
@@ -86,6 +128,22 @@
     padding-right: 15.12px;
     padding-bottom: 14.8px;
     padding-left: 15.12px;
+
+    @media screen and (min-width: $tablet-width) {
+      font-size: 20px;
+      line-height: normal;
+
+      padding-top: 10.4px;
+      padding-bottom: 11.8px;
+      padding-left: 18.68px;
+
+      border: 1px solid $special-grey;
+    }
+  }
+
+  @media screen and (min-width: $tablet-width) {
+    min-width: 500px;
+    min-height: 52px;
   }
 }
 
@@ -99,6 +157,14 @@
 
   border-top: 1px solid $very-light-grey;
   border-bottom: 1px solid $very-light-grey;
+
+  @media screen and (min-width: $tablet-width) {
+    padding-top: 25px;
+    padding-bottom: 29px;
+    padding-left: 27.97px;
+
+    border: 2px solid $special-grey;
+  }
 }
 
 .program-eat__form-ul-option-item {
@@ -140,6 +206,11 @@
   &:hover {
     cursor: pointer;
   }
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 
 .program-eat__block {
@@ -158,6 +229,10 @@
   padding-right: 20px;
   padding-bottom: 20.75px;
   padding-left: 20px;
+
+  @media screen and (min-width: $tablet-width) {
+    padding-left: 25px;
+  }
 }
 
 .program-eat__block-add-personal {
@@ -185,13 +260,44 @@
   line-height: 26px;
   letter-spacing: 0;
   text-transform: none;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+
+    margin-right: 0;
+    margin-left: -25px;
+  }
 }
 
-.program-eat__block-add-span {
+.program-eat__block-add-br {
+  @media screen and (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.program-eat__block-add-span-left {
+  display: none;
+
+  @media screen and (min-width: $tablet-width) {
+    display: block;
+
+    position: absolute;
+    left: -71px;
+
+    width: auto;
+    min-width: 30px;
+    min-height: 2px;
+
+    background-color: $green-main;
+  }
+}
+
+.program-eat__block-add-span-right {
   display: block;
 
   position: absolute;
-  right: 0;
+  right: -15px;
 
   margin-right: -21px;
 
@@ -200,14 +306,87 @@
   min-height: 2px;
 
   background-color: $green-main;
+
+  @media screen and (min-width: $tablet-width) {
+    position: absolute;
+    right: -110px;
+
+    margin-right: 0;
+
+    width: auto;
+    min-width: 145px;
+    min-height: 2px;
+  }
 }
 
-.program-eat__block-add-span-comment {
+.program-eat__block-add-span-comment-left {
+  display: none;
+
+  @media screen and (min-width: $tablet-width) {
+    display: block;
+
+    min-width: 30px;
+    min-height: 2px;
+
+    position: absolute;
+    left: -75px;
+
+    background-color: $green-main;
+  }
+}
+
+.program-eat__block-add-span-comment-right {
+  position: absolute;
+  right: -32px;
+
   min-width: 158px;
+  min-height: 2px;
+
+  background-color: $green-main;
+
+  @media screen and (min-width: $tablet-width) {
+    min-width: 448px;
+
+    right: -110px;
+  }
 }
 
-.program-eat__block-add-span-add-personal {
+.program-eat__block-add-span-add-personal-left {
+  display: none;
+
+  @media screen and (min-width: $tablet-width) {
+    display: block;
+
+    min-width: 30px;
+    min-height: 2px;
+
+    position: absolute;
+    left: -75px;
+
+    background-color: #68b738;
+  }
+}
+
+.program-eat__block-add-span-add-personal-right {
+  position: absolute;
+  right: -32px;
+
   min-width: 136px;
+  min-height: 2px;
+
+  background-color: $green-main;
+
+  @media screen and (min-width: $tablet-width) {
+    right: -110px;
+
+    min-width: 440px;
+  }
+}
+
+.program-eat__block-add-wrap {
+  @media screen and (min-width: $tablet-width) {
+    margin-left: -18px;
+  }
 }
 
 .program-eat__block-add-wrap-comment {
@@ -218,6 +397,14 @@
   padding-right: 12px;
   padding-bottom: 10px;
   padding-left: 15px;
+
+  @media screen and (min-width: $tablet-width) {
+    min-width: 581px;
+    min-height: 174px;
+
+    padding-top: 10px;
+    padding-left: 19px;
+  }
 
   &::placeholder {
     color: $light-black;
@@ -231,6 +418,11 @@
 
     margin-top: 0;
     margin-bottom: 0;
+
+    @media screen and (min-width: $tablet-width) {
+      font-size: 20px;
+      line-height: 30px;
+    }
   }
 }
 
@@ -260,6 +452,11 @@
   min-width: fit-content;
 
   margin-right: 11px;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 
 .program-eat__block-ul-li-wrap-input {
@@ -268,6 +465,11 @@
   min-height: 46px;
 
   border: 1px solid $very-light-grey;
+
+  @media screen and (min-width: $tablet-width) {
+    min-width: 491px;
+    min-height: 52px;
+  }
 
   &::placeholder {
     color: $light-black;
@@ -282,6 +484,16 @@
     padding-right: 51px;
     padding-bottom: 15.45px;
     padding-left: 10px;
+
+    @media screen and (min-width: $tablet-width) {
+      font-size: 20px;
+      line-height: normal;
+
+      padding-top: 10px;
+      padding-right: 51px;
+      padding-bottom: 10px;
+      padding-left: 21.24px;
+    }
   }
 }
 
@@ -295,6 +507,14 @@
   min-height: 14.05px;
 
   background-image: url("../../img/icon-email-mobile.svg");
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: $tablet-width) {
+    right: 21px;
+
+    width: 20px;
+    min-height: 13px;
+  }
 }
 
 .program-eat__block-ul-li-wrap-input-tel {
@@ -307,6 +527,14 @@
   min-height: 20.07px;
 
   background-image: url("../../img/icon-phone-mobile.svg");
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: $tablet-width) {
+    right: 17px;
+
+    width: 20px;
+    min-height: 20px;
+  }
 }
 
 .program-eat__block-items {
@@ -315,6 +543,37 @@
   margin-top: 34px;
 
   padding-left: 0;
+
+  @media screen and (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+
+    width: 100%;
+    min-height: 180px;
+  }
+}
+
+.program-eat__block-item {
+  &:first-child {
+    @media screen and (min-width: $tablet-width) {
+      margin-right: 123px;
+    }
+  }
+
+  &:nth-child(2n + 1) {
+    @media screen and (min-width: $tablet-width) {
+      margin-right: 123px;
+    }
+  }
+}
+
+.program-eat__block-item-tablet {
+  @media screen and (min-width: $tablet-width) {
+    margin-left: 94px;
+  }
 }
 
 .program-eat__block-item-input {
@@ -330,6 +589,11 @@
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: normal;
+  }
 }
 
 .program-eat__block-button {
@@ -341,6 +605,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 }
 
 .program-eat__block-button-elem {
@@ -367,6 +636,16 @@
   letter-spacing: 0;
   text-transform: uppercase;
 
+  @media screen and (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 0;
+
+    width: 262px;
+    min-height: 52px;
+
+    margin-right: 61px;
+  }
+
   &:hover {
     cursor: pointer;
   }
@@ -381,4 +660,8 @@
   line-height: 16px;
   letter-spacing: 0;
   text-transform: none;
+
+  @media screen and (min-width: $tablet-width) {
+    font-size: 16px;
+  }
 }
