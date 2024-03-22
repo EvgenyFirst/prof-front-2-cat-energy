@@ -70,7 +70,7 @@
   display: block;
 
   position: absolute;
-  right: -82px;
+  right: -70px;
 
   width: 53px;
   min-height: 1px;
@@ -80,8 +80,6 @@
   background-color: $green-main;
 
   @media screen and (min-width: $tablet-width) {
-    min-width: 328px;
-
     right: -30px;
 
     z-index: 1;
@@ -239,9 +237,9 @@
   margin-top: 39px;
   margin-right: 20px;
   margin-bottom: 35px;
-  margin-left: 20px;
+  margin-left: 24px;
 
-  width: 280px;
+  width: 269px;
   height: 289px;
 
   background-color: $green-main;

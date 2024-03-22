@@ -137,7 +137,7 @@
 }
 
 .use-product__change-legend-br-tablet {
-  @media (min-width: $tablet-width) and (max-width: $max-tablet-width) {
+  @media screen and (min-width: $tablet-width) {
     display: none;
   }
 }
