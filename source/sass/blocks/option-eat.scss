@@ -33,6 +33,14 @@
 
     justify-content: flex-start;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    padding-right: 110px;
+    padding-left: 110px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .option-eat__item {
@@ -55,6 +63,46 @@
     padding-bottom: 53px;
     padding-left: 62px;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    width: 547px;
+    min-height: 374px;
+
+    padding-top: 41px;
+    padding-right: 51px;
+    padding-bottom: 55px;
+    padding-left: 52px;
+  }
+
+  &:first-child {
+    @media screen and (min-width: $desktop-width) {
+      margin-right: 40px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &:nth-child(2) {
+    @media screen and (min-width: $desktop-width) {
+      margin-top: 10px;
+    }
+  }
+
+  &:nth-child(2n) {
+    @media screen and (min-width: $desktop-width) {
+      margin-right: 0;
+      margin-left: 40px;
+      padding-bottom: 10px;
+    }
+  }
+
+  &:nth-child(2n + 1) {
+    @media screen and (min-width: $desktop-width) {
+      margin-top: 10px;
+      margin-right: 40px;
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .option-eat__wrap {
@@ -66,6 +114,15 @@
 
   @media screen and (min-width: $tablet-width) {
     flex-direction: row-reverse;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    flex-direction: row;
+    align-items: flex-start;
+
+    margin-left: 178px;
+
+    padding-left: 52px;
   }
 }
 
@@ -96,6 +153,11 @@
 
       min-width: 200px;
       min-height: 200px;
+    }
+
+    @media screen and (min-width: $desktop-width) {
+      min-width: 100px;
+      min-height: 100px;
     }
   }
 
@@ -130,6 +192,14 @@
 
     z-index: 2;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    min-width: 70px;
+    height: 97px;
+
+    margin-top: -243px;
+    margin-left: -206px;
+  }
 }
 
 .option-eat__wrap-container-img-walking {
@@ -145,6 +215,20 @@
     margin-left: -251px;
 
     z-index: 2;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    min-width: 134px;
+    height: 100px;
+
+    margin-top: -214px;
+    margin-left: -236px;
+  }
+}
+
+.option-eat__ul-header-desktop {
+  @media screen and (min-width: $desktop-width) {
+    margin-left: -236px;
   }
 }
 
@@ -165,6 +249,10 @@
     line-height: 36px;
 
     margin-left: 0;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    font-size: 36px;
   }
 }
 

@@ -15,6 +15,12 @@
 
     width: 768px;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    width: 100%;
+
+    position: relative;
+  }
 }
 
 .effect-eat__container {
@@ -52,6 +58,12 @@
       background: none;
     }
   }
+
+  @media screen and (min-width: $desktop-width) {
+    margin-top: 111px;
+
+    padding-left: 80px;
+  }
 }
 
 .effect-eat__container-span {
@@ -65,6 +77,10 @@
   background-color: $white;
 
   z-index: 2;
+
+  @media screen and (min-width: $desktop-width) {
+    background-color: transparent;
+  }
 }
 
 .effect-eat__header {
@@ -136,6 +152,12 @@
   align-items: center;
 
   width: 100%;
+
+  @media screen and (min-width: $desktop-width) {
+    position: relative;
+
+    z-index: 5;
+  }
 }
 
 .effect-eat__wrapper-bg-tablet {
@@ -156,14 +178,32 @@
 
     z-index: 2;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    position: relative;
+
+    padding-left: 80px;
+
+    z-index: 5;
+  }
 }
 
 .effect-eat__img-span {
   @media screen and (min-width: $tablet-width) {
-    background-image: url("../../img/eat-cat-tablet.jpg");
+    background-image: url("../../img/eat-cat-tablet.png");
 
     width: 709px;
     height: 609px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    background-image: url("../../img/eat-cat-desktop.png");
+
+    width: 552px;
+    height: 499px;
+
+    margin-top: -292px;
+    margin-left: 500px;
   }
 }
 
@@ -204,5 +244,11 @@
     font-size: 20px;
     line-height: 20px;
     margin-bottom: 0;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    position: relative;
+
+    z-index: 5;
   }
 }

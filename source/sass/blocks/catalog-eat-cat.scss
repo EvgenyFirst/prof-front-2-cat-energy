@@ -98,7 +98,7 @@
       width: 100%;
       min-height: 430px;
 
-      background-color: $very-light-grey;
+      background-color: $very-light-grey-rgba;
     }
   }
 
@@ -125,7 +125,7 @@
 
         background: none;
 
-        outline: 2px solid $very-light-grey;
+        outline: 2px solid $very-light-grey-rgba;
       }
     }
   }
