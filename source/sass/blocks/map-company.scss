@@ -54,6 +54,20 @@
 
     width: 100%;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.map-company-img-desktop {
+  display: none;
+
+  @media screen and (min-width: $desktop-width) {
+    display: block;
+
+    width: 100%;
+  }
 }
 
 .map-company-img-pin-tablet {
@@ -75,5 +89,10 @@
     position: absolute;
     top: 38%;
     left: 43%;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    top: 32%;
+    left: 63%;
   }
 }

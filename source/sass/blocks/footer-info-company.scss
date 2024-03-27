@@ -23,12 +23,24 @@
   }
 }
 
-.footer-info-company__catalog {
+.footer-info-company-index {
+  @media screen and (min-width: $desktop-width) {
+    background-color: $light-grey;
+  }
+}
+
+.footer-info-company-catalog {
   background-color: $light-grey-rgba;
 }
 
-.footer-info-company__form {
+.adress-company-form {
   background-color: $light-grey-rgba;
+}
+
+.footer-info-company-empty {
+  @media screen and (min-width: $desktop-width) {
+    background-color: $light-grey;
+  }
 }
 
 .footer-info-company__wrap {
