@@ -18,11 +18,20 @@
 
     background-color: $white;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    padding-right: 110px;
+    padding-left: 110px;
+  }
 }
 
 .use-product__inner {
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: $desktop-width) {
+    width: 100%;
+  }
 }
 
 .use-product__header {
@@ -68,6 +77,18 @@
   display: none;
 
   @media screen and (min-width: $tablet-width) {
+    display: block;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.use-product__info-desktop {
+  display: none;
+
+  @media screen and (min-width: $desktop-width) {
     display: block;
   }
 }

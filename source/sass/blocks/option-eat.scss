@@ -158,6 +158,8 @@
     @media screen and (min-width: $desktop-width) {
       min-width: 100px;
       min-height: 100px;
+
+      margin-right: -179px;
     }
   }
 
@@ -228,7 +230,7 @@
 
 .option-eat__ul-header-desktop {
   @media screen and (min-width: $desktop-width) {
-    margin-left: -236px;
+    margin-left: -75px;
   }
 }
 
