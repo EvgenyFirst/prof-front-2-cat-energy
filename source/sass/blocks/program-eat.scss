@@ -3,6 +3,11 @@
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    padding-right: 110px;
+    padding-left: 110px;
+  }
 }
 
 .program-eat__header {
@@ -28,6 +33,11 @@
     margin-right: 39px;
     margin-left: 39px;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .program-eat__p {
@@ -52,6 +62,11 @@
     margin-right: 39px;
     margin-left: 39px;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .program-eat__form {
@@ -67,6 +82,23 @@
     border-top: 1px solid $special-grey;
     border-bottom: 1px solid $special-grey;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    margin-right: 0;
+    margin-left: 0;
+
+    border-top: none;
+    border-bottom: none;
+  }
+}
+
+.program-eat__form-container {
+  @media screen and (min-width: $desktop-width) {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .program-eat__form-ul {
@@ -78,7 +110,7 @@
   padding-left: 0;
 
   @media screen and (min-width: $tablet-width) {
-    margin-right: 0;
+    margin-right: 5px;
     margin-left: 0;
   }
 }
@@ -165,6 +197,10 @@
 
     border: 2px solid $special-grey;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    border: none;
+  }
 }
 
 .program-eat__form-ul-option-item {
@@ -240,6 +276,11 @@
   padding-right: 20px;
   padding-bottom: 32px;
   padding-left: 20px;
+
+  @media screen and (min-width: $desktop-width) {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .program-eat__block-add {
@@ -291,6 +332,12 @@
 
     background-color: $green-main;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    left: -105px;
+
+    min-width: 70px;
+  }
 }
 
 .program-eat__block-add-span-right {
@@ -315,7 +362,12 @@
 
     width: auto;
     min-width: 145px;
-    min-height: 2px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    min-width: 778px;
+
+    right: -150px;
   }
 }
 
@@ -333,6 +385,12 @@
 
     background-color: $green-main;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    left: -110px;
+
+    min-width: 70px;
+  }
 }
 
 .program-eat__block-add-span-comment-right {
@@ -349,6 +407,12 @@
 
     right: -110px;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    min-width: 1108px;
+
+    right: -150px;
+  }
 }
 
 .program-eat__block-add-span-add-personal-left {
@@ -363,7 +427,19 @@
     position: absolute;
     left: -75px;
 
-    background-color: #68b738;
+    background-color: $green-main;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    left: -105px;
+
+    min-width: 70px;
+  }
+}
+
+.program-eat__block-add-desktop {
+  @media screen and (min-width: $desktop-width) {
+    padding-left: 20px;
   }
 }
 
@@ -380,6 +456,12 @@
     right: -110px;
 
     min-width: 440px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    min-width: 1078px;
+
+    right: -150px;
   }
 }
 
@@ -430,6 +512,13 @@
   list-style: none;
 
   padding-left: 0;
+
+  @media screen and (min-width: $desktop-width) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
 
 .program-eat__block-ul-li-wrap {
@@ -554,6 +643,10 @@
     width: 100%;
     min-height: 180px;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    justify-content: space-between;
+  }
 }
 
 .program-eat__block-item {
@@ -561,11 +654,19 @@
     @media screen and (min-width: $tablet-width) {
       margin-right: 123px;
     }
+
+    @media screen and (min-width: $desktop-width) {
+      margin-right: 0;
+    }
   }
 
   &:nth-child(2n + 1) {
     @media screen and (min-width: $tablet-width) {
       margin-right: 123px;
+    }
+
+    @media screen and (min-width: $desktop-width) {
+      margin-right: 0;
     }
   }
 }
@@ -610,6 +711,13 @@
     flex-direction: row;
     justify-content: flex-start;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    padding-right: 0;
+    padding-left: 0;
+
+    margin-bottom: 62px;
+  }
 }
 
 .program-eat__block-button-elem {
@@ -644,6 +752,10 @@
     min-height: 52px;
 
     margin-right: 61px;
+  }
+
+  @media screen and (min-width: $desktop-width) {
+    width: 568px;
   }
 
   &:hover {

@@ -21,6 +21,11 @@
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  @media screen and (min-width: $desktop-width) {
+    padding-right: 110px;
+    padding-left: 110px;
+  }
 }
 
 .footer-info-company-index {
@@ -33,7 +38,7 @@
   background-color: $light-grey-rgba;
 }
 
-.adress-company-form {
+.footer-info-company-form {
   background-color: $light-grey-rgba;
 }
 

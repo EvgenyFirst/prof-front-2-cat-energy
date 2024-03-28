@@ -85,57 +85,60 @@
       </p>
       <form class="program-eat__form" action="https://echo.htmlacademy.ru"
         method="post">
-        <ul class="program-eat__form-ul">
-          <li class="program-eat__form-ul-item-data">
-            <p class="program-eat__form-ul-item-data-p">
-              <label class="program-eat__form-ul-item-data-label"
-                for="cat-name">ИМЯ:*</label>
-              <input class="program-eat__form-ul-item-data-input" id="cat-name"
-                type="text" name="catName" placeholder="барсик" tabindex="0"
-                required>
-            </p>
-          </li>
-          <li class="program-eat__form-ul-item-data">
-            <p class="program-eat__form-ul-item-data-p">
-              <label class="program-eat__form-ul-item-data-label"
-                for="cat-weight">Вес (кг):*</label>
-              <input class="program-eat__form-ul-item-data-input"
-                id="cat-weight" type="text" name="catWeight" placeholder="7"
-                tabindex="0" required>
-            </p>
-          </li>
-          <li class="program-eat__form-ul-item-data">
-            <p class="program-eat__form-ul-item-data-p">
-              <label class="program-eat__form-ul-item-data-label"
-                for="cat-age">Возраст (лет):</label>
-              <input class="program-eat__form-ul-item-data-input" id="cat-age"
-                type="text" name="catAge" placeholder="7" tabindex="0">
-            </p>
-          </li>
-        </ul>
-        <ul class="program-eat__form-ul-option">
-          <li class="program-eat__form-ul-option-item">
-            <input class="program-eat__form-ul-option-item-input" type="radio"
-              name="Худение, набор массы, совет: " value="Похудение"
-              id="filter-weight-loss" checked>
-            <label class="program-eat__form-ul-option-item-label"
-              for="filter-weight-loss">похудение</label>
-          </li>
-          <li class="program-eat__form-ul-option-item">
-            <input class="program-eat__form-ul-option-item-input" type="radio"
-              name="Худение, набор массы, совет: " value="Набор массы"
-              id="filter-weight-gain">
-            <label class="program-eat__form-ul-option-item-label"
-              for="filter-weight-gain">Набор массы</label>
-          </li>
-          <li class="program-eat__form-ul-option-item">
-            <input class="program-eat__form-ul-option-item-input" type="radio"
-              name="Худение, набор массы, совет: " value="Совет"
-              id="filter-advice">
-            <label class="program-eat__form-ul-option-item-label"
-              for="filter-advice">Не знаю (Нужен ваш совет)</label>
-          </li>
-        </ul>
+        <div class="program-eat__form-container">
+          <ul class="program-eat__form-ul">
+            <li class="program-eat__form-ul-item-data">
+              <p class="program-eat__form-ul-item-data-p">
+                <label class="program-eat__form-ul-item-data-label"
+                  for="cat-name">ИМЯ:*</label>
+                <input class="program-eat__form-ul-item-data-input"
+                  id="cat-name"
+                  type="text" name="catName" placeholder="барсик" tabindex="0"
+                  required>
+              </p>
+            </li>
+            <li class="program-eat__form-ul-item-data">
+              <p class="program-eat__form-ul-item-data-p">
+                <label class="program-eat__form-ul-item-data-label"
+                  for="cat-weight">Вес (кг):*</label>
+                <input class="program-eat__form-ul-item-data-input"
+                  id="cat-weight" type="text" name="catWeight" placeholder="7"
+                  tabindex="0" required>
+              </p>
+            </li>
+            <li class="program-eat__form-ul-item-data">
+              <p class="program-eat__form-ul-item-data-p">
+                <label class="program-eat__form-ul-item-data-label"
+                  for="cat-age">Возраст (лет):</label>
+                <input class="program-eat__form-ul-item-data-input" id="cat-age"
+                  type="text" name="catAge" placeholder="7" tabindex="0">
+              </p>
+            </li>
+          </ul>
+          <ul class="program-eat__form-ul-option">
+            <li class="program-eat__form-ul-option-item">
+              <input class="program-eat__form-ul-option-item-input" type="radio"
+                name="Худение, набор массы, совет: " value="Похудение"
+                id="filter-weight-loss" checked>
+              <label class="program-eat__form-ul-option-item-label"
+                for="filter-weight-loss">похудение</label>
+            </li>
+            <li class="program-eat__form-ul-option-item">
+              <input class="program-eat__form-ul-option-item-input" type="radio"
+                name="Худение, набор массы, совет: " value="Набор массы"
+                id="filter-weight-gain">
+              <label class="program-eat__form-ul-option-item-label"
+                for="filter-weight-gain">Набор массы</label>
+            </li>
+            <li class="program-eat__form-ul-option-item">
+              <input class="program-eat__form-ul-option-item-input" type="radio"
+                name="Худение, набор массы, совет: " value="Совет"
+                id="filter-advice">
+              <label class="program-eat__form-ul-option-item-label"
+                for="filter-advice">Не знаю (Нужен ваш совет)</label>
+            </li>
+          </ul>
+        </div>
         <fieldset class="program-eat__block program-eat__block-data">
           <legend class="program-eat__block-add">
             <span class="program-eat__block-add-span-left"></span>
@@ -187,7 +190,7 @@
           <legend class="program-eat__block-add">
             <span
               class="program-eat__block-add-span-add-personal-left"></span>
-            Дополнительно
+            <span class="program-eat__block-add-desktop">Дополнительно</span>
             <span
               class="program-eat__block-add-span-add-personal-right"></span>
           </legend>
