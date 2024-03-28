@@ -288,3 +288,24 @@
     cursor: default;
   }
 }
+
+.header-nav__wrap-bottom-nav-link-active-two {
+  @media screen and (min-width: $desktop-width) {
+    &::before {
+      content: " ";
+      display: block;
+
+      width: 100%;
+      min-height: 2px;
+
+      background: $green-main;
+
+      position: absolute;
+      bottom: -12px;
+    }
+  }
+
+  &:hover {
+    cursor: default;
+  }
+}
